@@ -1,0 +1,25 @@
+<!-- 
+    Um arquivo HTML é basicamente um arquivo de texto, todas as páginas que vemos em um navegador possui HTML (também css e javascript). Ele é um arquivo que marca no navegador a semantica da página. Ele possui extensão .html
+
+    Uma tag HTML abre com < e fecha com >, porém, algumas tags possui corpo e nesse caso elas fecham com </>. Elas podem ter atributos (algumas possuem atributos especificos), id e classes (mais de uma). 
+
+    Elas possuem uma hierarquia, tags ficam dentro de outras tags e podemos chamar isso de 'pais' e 'filhos'. 
+
+    O HTML é case insensitive então nao faz diferença letras maiusculas ou minusculas.
+-->
+
+<!-- Estrutura HTML -->
+
+<!DOCTYPE html> <!-- esse tag sem corpo identifica para o navegador que estamos usando html5 -->
+<html lang="pt-br"> <!-- todas as tags html ficam dentro desta tag (essa é a tag raiz), (são filhas dela),(ela possui corpo), aqui passamos o atributo de linguagem e definimos como pt-br-->
+   <head> <!-- Aqui ficam os metadados, essa tag não aparece no documento, algumas tags são espeficias para ficar dentro da tag head-->
+        <meta charset="UTF-8"> <!-- Quando digitamos texto no computador na verdade estamos passando bytes para ele e precisamos passar para ele a condificação de caracteres que estamos utilizando que é a UTF-8, toda tag meta não possui corpo -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Essa tag serve para controlar a visualização de uma página web em diferentes dispositivos com diferentes tamanhos de tela -->
+        <title>Meu HTML</title> <!-- Essa tag define o titulo da página -->
+   </head>
+   <body> <!-- todo conteúdo do site deve ficar dentro da tag body. Tudo que vemos na tela do navegador é o body -->
+    
+   </body>
+</html>
+
+<!-- Podemos validar o nosso html em validator.w3.org - la da para ver todos os erros do nosso html -->
